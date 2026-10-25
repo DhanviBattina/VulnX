@@ -34,5 +34,5 @@ python3 src/scanner.py <target_url>
 - Run this command in the terminal and paste the site that you want to check
 
 
-### License
-## This project is open source and free to use for educational purposes.
+## License
+- This project is open source and free to use for educational purposes.
