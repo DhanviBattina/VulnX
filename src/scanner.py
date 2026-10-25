@@ -16,6 +16,9 @@ class WebVulnerabilityScanner:
  def check_headers(self):
  """Checks for common security headers."""
  print(f"[*] Checking security headers for {self.target_url}...")
+ print(f"\n[*] Full Response Headers:")
+ for header, value in response.headers.items():
+ print(f" {header}: {value}")
  response = self.session.get(self.target_url)
  headers = dict(response.headers)
  issues = []
